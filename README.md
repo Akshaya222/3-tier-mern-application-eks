@@ -10,6 +10,9 @@ The entire infrastructure is created using Terraform, and AWS services like ALB 
 
 Additionally, Prometheus and Grafana are deployed for monitoring the application, with custom Grafana dashboards to visualize metrics. ArgoCD is also used for GitOps-based deployment management.
 
+Backend is accessible on [http://mern-eks.akshaya.cloud/api/tasks](http://mern-eks.akshaya.cloud/api/tasks)
+Frontend is accessible on [http://mern-eks.akshaya.cloud](http://mern-eks.akshaya.cloud)
+
 ## Architecture Overview
 
 - **Frontend**: React application deployed in the EKS cluster.
